@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="develop.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/d2b224395e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="logo.png" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="develop.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="course.html">Course</a></li>
+            <li><a href="Blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Our Certificate & Online Programs for 2023</h1>
+    </section>
+    <!------------------  Blog ----------------------->
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="certificate.jpg" alt="" />
+          <h2>Our Certificate & Online Programs for 2023</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptatibus quidem aspernatur cum odit nihil iure dolorem natus sed
+            expedita at nam impedit aperiam obcaecati, similique cumque
+            eligendi, iusto et ad? Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Voluptatibus quidem aspernatur cum odit nihil iure
+            dolorem natus sed expedita at nam impedit aperiam obcaecati,
+            similique cumque eligendi, iusto et ad?<br />
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptatibus quidem aspernatur cum odit nihil iure dolorem natus sed
+            expedita at nam impedit aperiam obcaecati, similique cumque
+            eligendi, iusto et ad? Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Voluptatibus quidem aspernatur cum odit nihil iure
+            dolorem natus sed expedita at nam impedit aperiam obcaecati,
+            similique cumque eligendi, iusto et ad?<br />
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptatibus quidem aspernatur cum odit nihil iure dolorem natus sed
+            expedita at nam impedit aperiam obcaecati, similique cumque
+            eligendi, iusto et ad? Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Voluptatibus quidem aspernatur cum odit nihil iure
+            dolorem natus sed expedita at nam impedit aperiam obcaecati,
+            similique cumque eligendi, iusto et ad?<br />
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptatibus quidem aspernatur cum odit nihil iure dolorem natus sed
+            expedita at nam impedit aperiam obcaecati, similique cumque
+            eligendi, iusto et ad? Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Voluptatibus quidem aspernatur cum odit nihil iure
+            dolorem natus sed expedita at nam impedit aperiam obcaecati,
+            similique cumque eligendi, iusto et ad?br
+          </p>
+          <div class="comment-box">
+            <h3>Leave a comment</h3>
+            <form class="comment-form">
+              <input type="text" placeholder="Enter Name" />
+              <input type="email" placeholder="Enter E-mail" />
+              <textarea rows="5" placeholder="Your Comment"></textarea>
+              <button type="submit" class="hero-btn red-btn">
+                Post Comment
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="blog-right">
+          <h3>Post Categories</h3>
+          <div>
+            <span>Business Analytics</span>
+            <span>21</span>
+          </div>
+          <div>
+            <span>Data Science</span>
+            <span>28</span>
+          </div>
+          <div>
+            <span>Machine Learning</span>
+            <span>15</span>
+          </div>
+          <div>
+            <span>Computer Science</span>
+            <span>34</span>
+          </div>
+          <div>
+            <span>Autocad</span>
+            <span>42</span>
+          </div>
+          <div>
+            <span>Journalism</span>
+            <span>22</span>
+          </div>
+          <div>
+            <span>Commerce</span>
+            <span>30</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!----------------- footer ----------------->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam sunt
+        maiores, veritatis earum nostrum culpa quaerat,<br />
+        fugit facere saepe accusamus modi harum labore totam illo perferendis
+      </p>
+
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>Made with <i class="fa fa-heart-o"></i> Manichandu</p>
+    </section>
+    <!---------------  Javascript Toggle menu   ----------------->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

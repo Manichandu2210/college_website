@@ -1,0 +1,104 @@
+<h1>Bachelor of Technology (B.Tech) Course Offerings</h1>
+
+<h2>Core Engineering Courses:</h2>
+<ul>
+  <li>Mathematics for Engineers</li>
+  <li>Engineering Mechanics</li>
+  <li>Thermodynamics</li>
+  <li>Fluid Mechanics</li>
+  <li>Materials Science</li>
+  <li>Strength of Materials</li>
+  <li>Heat Transfer</li>
+  <li>Electrical Circuits and Electronics</li>
+  <li>Engineering Drawing/Graphics</li>
+</ul>
+
+<h2>Specialized Engineering Disciplines:</h2>
+<ul>
+  <li>Computer Science and Engineering</li>
+  <li>Mechanical Engineering</li>
+  <li>Civil Engineering</li>
+  <li>Electrical Engineering</li>
+  <li>Electronics and Communication Engineering</li>
+  <li>Chemical Engineering</li>
+  <li>Aerospace Engineering</li>
+  <li>Biotechnology Engineering</li>
+</ul>
+
+<h2>Programming and Computer Science Courses:</h2>
+<ul>
+  <li>Programming in C/C++</li>
+  <li>Data Structures and Algorithms</li>
+  <li>Object-Oriented Programming</li>
+  <li>Computer Networks</li>
+  <li>Database Management Systems</li>
+  <li>Software Engineering</li>
+</ul>
+
+<h2>Elective Courses:</h2>
+<p>
+  Universities often offer a range of elective courses that allow students to
+  specialize in specific areas within their chosen discipline. For example:
+</p>
+<ul>
+  <li>Artificial Intelligence</li>
+  <li>Robotics</li>
+  <li>Renewable Energy</li>
+  <li>Machine Learning</li>
+  <li>Web Development</li>
+  <li>VLSI Design</li>
+  <li>Bioinformatics</li>
+</ul>
+
+<h2>Laboratory and Practical Courses:</h2>
+<ul>
+  <li>Engineering Workshop</li>
+  <li>Computer Programming Lab</li>
+  <li>Electronics Lab</li>
+  <li>Mechanical Design Lab</li>
+  <li>Control Systems Lab</li>
+</ul>
+
+<h2>Project Work:</h2>
+<p>
+  B.Tech programs often require students to undertake a final-year project where
+  they apply their knowledge to solve real-world engineering problems.
+</p>
+
+<h2>Soft Skills and General Education Courses:</h2>
+<p>
+  Some universities include courses to develop students' communication skills,
+  teamwork, and general awareness. These might include subjects like Technical
+  Communication, Ethics in Engineering, and Professional Development.
+</p>
+
+
+
+contact-us {
+  width: 80%;
+  margin: auto;
+}
+contact-col {
+  flex-basis: 48%;
+  margin-bottom: 30px;
+}
+.contact-col div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.contact-col div .fa {
+  font-size: 28px;
+  color: #f44336;
+  margin: 10px;
+  margin-right: 30px;
+}
+.contact-col div p {
+  padding: 0;
+}
+.contact-col div h5 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #555;
+  font-weight: 400;
+}
